@@ -15,37 +15,36 @@ body{
     line-height: 1.6m;
     margin: 0;
 }
-
-
-.container{
-    width: 90%;
-    margin: auto;
-}
-a{
-    text-decoration: none;
-    color: #000;
-}
-
-a:hover{
-    color: red;
-}
-
-a:active{
-    color: green;
-}
-
-
-
-.box-1 {
-    background-color: #333;
-    color: #fff;
-
-    border: 5px red solid;
-    border-style: none;
-
-    margin: 20px;
-    padding: 20px;
-}
+    
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    a:hover{
+        color: red;
+    }
+    
+    a:active{
+        color: green;
+    }
+    
+    
+    
+    .box-1 {
+        background-color: #333;
+        color: #fff;
+        
+        border: 5px red solid;
+        border-style: none;
+        
+        margin: 20px;
+        padding: 20px;
+    }
 .button {
     background-color: #333;
     color: #fff;
@@ -57,8 +56,10 @@ a:active{
     background-color: red;
     color: #fff;
 }
-    
 
+.clr{
+    clear: both;
+}
 
 .box-1 h1{
     font-family: tahoma;
@@ -104,7 +105,7 @@ a:active{
 
 .my-form .form-group{
     padding-bottom: 15px;
-
+    
 }
 
 .my-form label{
@@ -114,4 +115,56 @@ a:active{
 .my-form input[typy="text"], .my-form textarea{
     padding: 8px;
     width: 100%;
+}
+
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+#main-block{
+    float:left;
+    width: 70%;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+}
+
+
+.p-box h1{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+
+.fix-me{
+    position: fixed;
+    top: 400px;
 }
